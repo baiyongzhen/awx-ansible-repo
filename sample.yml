@@ -1,0 +1,5 @@
+- name: awx-ansible-role
+  hosts: all
+  become: yes
+  roles:
+    - sample
