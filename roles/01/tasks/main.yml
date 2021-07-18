@@ -1,12 +1,12 @@
 ---
 
-- name: echo hello world
-  command: echo "Hello {{ world }}"
-  register: result
+#- name: echo hello world
+#  command: echo "Hello"
+#  register: result
 
-- name: print message
-  debug:
-    msg: "{{ result.stdout_lines }}"
+#- name: print message
+#  debug:
+#    msg: "{{ result.stdout_lines }}"
 
 
 
