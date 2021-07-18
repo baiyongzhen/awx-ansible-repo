@@ -1,15 +1,6 @@
 ---
 
-#- name: task-01 yaml
-#  include: "task-01.yml"
-#  tags: [task01]
-
-#- name: task-02 yaml
-#  include: "task-01.yml"
-#  tags: [task02]
-
-
-- name: echo 'hello world'
+- name: echo hello world
   command: echo "Hello {{ world }}"
   register: result
 
