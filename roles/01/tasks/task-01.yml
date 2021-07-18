@@ -1,0 +1,54 @@
+---
+
+- name: echo 'taks-01 01'
+  command: echo "Hello {{ world }}"
+  register: result
+
+- name: print message
+  debug:
+    msg: "{{ result.stdout_lines }}"
+
+
+- name: echo 'taks-01 02'
+  command: echo "Hello {{ world }}"
+  register: result
+
+- name: print message
+  debug:
+    msg: "{{ result.stdout_lines }}"
+
+
+- name: echo 'taks-01 03'
+  command: echo "Hello {{ world }}"
+  register: result
+
+- name: print message
+  debug:
+    msg: "{{ result.stdout_lines }}"
+
+
+- name: echo 'taks-01 04'
+  command: echo "Hello {{ world }}"
+  register: result
+
+- name: print message
+  debug:
+    msg: "{{ result.stdout_lines }}"
+
+
+
+
+
+
+
+
+
+
+
+#- name: Run ls.sh and output "ls /"
+#  script: ls.sh
+#  register: out
+#
+#- debug: var=out.stdout_lines
+
+
